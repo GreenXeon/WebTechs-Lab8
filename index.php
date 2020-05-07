@@ -22,7 +22,7 @@
     					'Content-type: text/plain';
 
 					if ((empty($users) && empty($subject)) || (empty($users))){
-						echo "Enter information!";
+						echo "Enter information!!";
 					}
 					elseif (empty($subject)){
 						if (!mail_check($users)){
