@@ -1,0 +1,36 @@
+body{
+	margin: 0;
+}
+
+header{
+	padding: 40px;
+	margin-bottom: 40px;
+	font-family: candara;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	background-color: black;
+}
+
+.sending{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px 0 20px 0;
+	text-align: center;
+	background-color: rgba(20, 7, 77, 0.2);
+}
+
+.sending span{
+	font-size:20px;
+	font-family: candara, sans-serif;
+}
+
+.sending input{
+	margin: 10px;
+}
+
+.fields{
+	width: 400px;
+	height: 25px;
+}
