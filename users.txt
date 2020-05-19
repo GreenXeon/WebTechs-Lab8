@@ -140,3 +140,24 @@ test-e2byna2uo@srv1.mail-tester.com
 06 May 2020 10:22:47 AM
 test-4rsoihs7p@srv1.mail-tester.com
 ----------------
+18 May 2020 11:32:29 AM
+zahar.shishkin.2001@mail.u
+trashbox.1@mail.r
+----------------
+18 May 2020 11:43:13 AM
+zahar.shishkin.2001@mail.ru
+----------------
+18 May 2020 01:02:17 PM
+zahar.shishkin.2001@mail.r
+trashbox.1@mail.r
+----------------
+18 May 2020 01:03:18 PM
+zahar.shishkin.2001@mail.ru
+trashbox.1@mail.ru
+----------------
+18 May 2020 01:08:11 PM
+zahar.shishkin.2001@mail.ru
+----------------
+18 May 2020 01:10:05 PM
+zahar.shishkin.2001@mail.ru
+----------------

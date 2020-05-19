@@ -19,7 +19,7 @@
 					$message = htmlentities(trim($_POST['message']));
 					$headers = 'From: Захар Шишкин<zahar.shishkin.2001@mail.ru>' . "\r\n" .
     					'Reply-To: zahar.shishkin.2001@mail.ru' . "\r\n" .
-    					'Content-type: text/plain';
+    					'Content-type: text/plain; charset=utf-8';
 
 					if ((empty($users) && empty($subject)) || (empty($users))){
 						echo "Enter information!!";
@@ -48,7 +48,7 @@
 							echo '<span style="color: red">Error!</span>';
 					}
 				}
-
+				stat_generator();
 				function user_write($users){
 					$f = fopen("users.txt", 'a'); 
 					$a = explode(';', $users);
@@ -68,6 +68,10 @@
 							return false;
 					}
 					return true;
+				}
+
+				function stat_generator(){
+					var_dump($_SERVER['HTTP_USER_AGENT']);
 				}
 			?>	
 			
